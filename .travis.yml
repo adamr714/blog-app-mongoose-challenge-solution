@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: TthMKg1BI3t7lEMi8gazBCW0L02wHjVdMaDAFEjrlDCLQM8aPf7DVUV+sf4ApgR6rPTWSiecKy1yT9Xk3eMCnKatkO3JB+vJfp0Ldcc0Ey1QAnWo2jAAa7y0vi+PYcCCFGGVYULWRhVBzdlhMyM3UFuqqeoCdmi+HFO+Hwy7TlInR33c5gyi0wKgTx9TVwGdkTgIhy0yPW/jyInIdzb+OHN/1i17H4Ok0v3UF72Gjk+/KoKBCf27TB9O44DwWVUeUHsXrIO7RDcorpWWbEv7xRnJZnB8AEIG2SWk+Fg0Xzs1vBY79A/rvrAZ1kv0p+aXYf7jLSLmRBLA1l3IJ87CLEnL0fKPSaYsKcj/h4rPznfkHZ+Fa+vzCU0ewxrslcfXKYTeATFGAnHDQPipHFqNUuIOflvEK0lYmy60GKkAk4/Okd5cp+dZngLhEold0MVKLjgLoNajdP9ZZMT5LbgIysdyEkgFZIAAdLgUsVVXiateDShvj1kdAQEO/nLpMFCw7Jmufuy7auyglrrkUMbAOUYpG9P3n3jyq80bglVA96NXKA+poU8JLiD+FfXITv5ldiFoAHJfKoeBq9iihYyIqp0s9V60JjezEms2xRb6kKJUrIW2Icy0y5m8Dcmy1JV+WZAp+ENPsv4SJce/EjsfUVC1RkEVM/DAjQVKdTBNw7I=
+  app: desolate-shore-32552
+  on:
+    repo: adamr714/blog-app-mongoose-challenge-solution
